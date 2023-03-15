@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour {
   public TextMeshProUGUI txtScoreLeft;
   public TextMeshProUGUI txtScoreRight;
 
-  private int scoreLeft;
+  public int scoreLeft;
   private int scoreRight;
 
   public float speed = 4;
